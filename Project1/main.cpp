@@ -77,10 +77,10 @@ int main()
     float dt;
     Clock dt_clock;
 
-    const float gridSize = 50.f;
+    const float gridSize = 25.f;
 
     //Player
-    const float movementSpeed = 100.f;
+    const float movementSpeed = 600.f;
     Vector2f velocity;
     RectangleShape player;
     player.setFillColor(Color::Blue);
@@ -103,7 +103,7 @@ int main()
 
 
         //Player movement
-        velocity.y = 0.f;
+        velocity.y = 5.f;
         velocity.x = 0.f;
 
         if (Keyboard::isKeyPressed(Keyboard::Up))
@@ -119,6 +119,22 @@ int main()
             velocity.x += -movementSpeed * dt;
         }
         if (Keyboard::isKeyPressed(Keyboard::Right))
+        {
+            velocity.x += movementSpeed * dt;
+        }
+        if (Keyboard::isKeyPressed(Keyboard::W))
+        {
+            velocity.y += -movementSpeed * dt;
+        }
+        if (Keyboard::isKeyPressed(Keyboard::S))
+        {
+            velocity.y += movementSpeed * dt;
+        }
+        if (Keyboard::isKeyPressed(Keyboard::A))
+        {
+            velocity.x += -movementSpeed * dt;
+        }
+        if (Keyboard::isKeyPressed(Keyboard::D))
         {
             velocity.x += movementSpeed * dt;
         }
