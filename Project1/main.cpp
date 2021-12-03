@@ -19,7 +19,7 @@ int main()
     cout << "6 - Mechanical movement" << endl;
     cout << "7 - Work and power" << endl;
     cout << "8 - Kinetic and potential energy" << endl;
-    cout << "9 - Pressure and Paskal's law" << endl;
+    cout << "9 - Pressure and Pascal's law" << endl;
     cout << "10 - Hydrostatic pressure" << endl << endl;
     
     cout << "Enter number: ";
