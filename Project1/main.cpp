@@ -53,6 +53,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             
             break;
@@ -76,6 +78,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -99,6 +103,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 4:
@@ -121,6 +127,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -144,6 +152,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -175,6 +185,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -198,6 +210,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -221,6 +235,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -244,6 +260,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -267,6 +285,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -298,6 +318,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -321,6 +343,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 3:
@@ -343,6 +367,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -366,6 +392,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -389,6 +417,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -420,6 +450,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -443,6 +475,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -466,6 +500,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 4:
@@ -488,6 +524,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -511,6 +549,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         }
@@ -541,6 +581,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 2:
@@ -563,6 +605,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 3:
@@ -585,6 +629,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 4:
@@ -607,6 +653,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -630,6 +678,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         }
@@ -660,6 +710,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -683,6 +735,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -706,6 +760,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -729,6 +785,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -752,6 +810,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         }
@@ -782,6 +842,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -805,6 +867,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -828,6 +892,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -851,6 +917,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -874,6 +942,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -905,6 +975,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -928,6 +1000,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 3:
@@ -950,6 +1024,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -973,6 +1049,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -996,6 +1074,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1027,6 +1107,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1050,6 +1132,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1073,6 +1157,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         case 4:
@@ -1095,6 +1181,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1118,6 +1206,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
             }
             break;
         }
@@ -1148,6 +1238,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1171,6 +1263,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1194,6 +1288,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1217,6 +1313,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
@@ -1240,6 +1338,8 @@ int main()
             case 'd':
                 cout << "Incorrect";
                 break;
+            default:
+                cout << "Wrong input";
 
             }
             break;
