@@ -155,7 +155,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FreeFalling.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MechanicalMovement.cpp" />
+    <ClCompile Include="SpeedAcceleration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FreeFalling.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MechanicalMovement.h" />
+    <ClInclude Include="Speed&amp;Acceleration.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
