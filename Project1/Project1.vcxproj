@@ -158,15 +158,16 @@
     <ClCompile Include="FreeFalling.cpp" />
     <ClCompile Include="FrictionForces.cpp" />
     <ClCompile Include="GravityWeight.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="MechanicalMovement.cpp" />
     <ClCompile Include="SpeedAcceleration.cpp" />
+    <ClCompile Include="TeamReunited.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FreeFalling.h" />
     <ClInclude Include="FrictionForces.h" />
     <ClInclude Include="GravityWeight.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="MechanicalMovement.h" />
     <ClInclude Include="Speed&amp;Acceleration.h" />
   </ItemGroup>

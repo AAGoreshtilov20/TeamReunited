@@ -10,3 +10,5 @@
 #include <cmath>
 #include <cstring>
 #include <time.h>
+
+void menu();

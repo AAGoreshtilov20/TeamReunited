@@ -1,6 +1,6 @@
 #include "Menu.h"
-
-int main()
+using namespace std;
+void menu()
 {
     //int md, su, sp, prnm, stt, st, rm, kpe, nl, hnl;
     int N;
