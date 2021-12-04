@@ -21,19 +21,19 @@ int main()
     cout << "8 - Kinetic and potential energy" << endl;
     cout << "9 - Pressure and Pascal's law" << endl;
     cout << "10 - Hydrostatic pressure" << endl << endl;
-    
+
     cout << "Enter number: ";
     cin >> N;
 
     switch (N)
     {
     case 1:
-        srand((unsigned)time(NULL));       
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
-        case 1: 
+        case 1:
             cout << "A1" << endl << endl;
             cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
             cout << "Type the correct answer: ";
@@ -56,7 +56,7 @@ int main()
             default:
                 cout << "Wrong input";
             }
-            
+
             break;
         case 2:
             cout << "A2" << endl << endl;
@@ -107,61 +107,12 @@ int main()
                 cout << "Wrong input";
             }
             break;
-        case 4:
-            cout << "A4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "A5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
-       }    
+        }
         break;
     case 2:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -240,61 +191,12 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "B4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "B5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
         }
         break;
     case 3:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -372,61 +274,12 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "C4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "C5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
         }
         break;
     case 4:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -504,60 +357,12 @@ int main()
                 cout << "Wrong input";
             }
             break;
-        case 4:
-            cout << "D4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cout << endl;
-            cin >> a;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "D5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-            }
-            break;
         }
         break;
     case 5:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -633,60 +438,12 @@ int main()
                 cout << "Wrong input";
             }
             break;
-        case 4:
-            cout << "E4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "E5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-            }
-            break;
         }
         break;
     case 6:
         srand((unsigned)time(NULL));
-        i = (rand() % 5) + 1;
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -765,60 +522,12 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "F4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "F5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-            }
-            break;
         }
         break;
     case 7:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -897,61 +606,12 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "G4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "G5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
         }
         break;
     case 8:
-        srand((unsigned)time(NULL));       
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -1029,61 +689,12 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "H4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "H5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
         }
         break;
     case 9:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -1161,60 +772,12 @@ int main()
                 cout << "Wrong input";
             }
             break;
-        case 4:
-            cout << "I4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "I5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-            }
-            break;
         }
         break;
     case 10:
-        srand((unsigned)time(NULL));        
-        i = (rand() % 5) + 1;
+        srand((unsigned)time(NULL));
+        i = (rand() % 3) + 1;
 
         switch (i)
         {
@@ -1293,58 +856,10 @@ int main()
 
             }
             break;
-        case 4:
-            cout << "J4" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
 
-            }
-            break;
-        case 5:
-            cout << "J5" << endl << endl;
-            cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
-            cout << "Type the correct answer: ";
-            cin >> a;
-            cout << endl;
-            switch (a)
-            {
-            case 'a':
-                cout << "Correct";
-                break;
-            case 'b':
-                cout << "Incorrect";
-                break;
-            case 'c':
-                cout << "Incorrect";
-                break;
-            case 'd':
-                cout << "Incorrect";
-                break;
-            default:
-                cout << "Wrong input";
-
-            }
-            break;
         }
         break;
+
     default:
         cout << "Wrong input";
     }
