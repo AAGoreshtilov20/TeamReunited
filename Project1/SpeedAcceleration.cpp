@@ -2,7 +2,8 @@
 
 void speedAcceleration()
 {
-    int i, a;
+    int i;
+    char a;
     srand((unsigned)time(NULL));
     i = (rand() % 3) + 1;
 

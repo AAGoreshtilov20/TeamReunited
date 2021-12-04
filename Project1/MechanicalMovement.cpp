@@ -2,15 +2,16 @@
 
 void mechanicalMovement()
 {
-    int i, a;
+    int i;
+    char a;
     srand((unsigned)time(NULL));
     i = (rand() % 3) + 1;
 
     switch (i)
     {
     case 1:
-        cout << "A1" << endl << endl;
-        cout << " a) \n\n b) \n\n c) \n\n d) \n" << endl;
+        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
+        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
         cout << "Type the correct answer: ";
         cin >> a;
         cout << endl;
@@ -30,6 +31,8 @@ void mechanicalMovement()
             break;
         default:
             cout << "Wrong input";
+            cout << "Type the correct answer: ";
+            cin >> a;
         }
 
         break;
