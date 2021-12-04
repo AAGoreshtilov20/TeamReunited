@@ -1,10 +1,12 @@
 #include "FreeFalling.h"
-
+#include <iostream>
+#include "Menu.h"
 void speedAcceleration()
 {
     int i;
     char a;
     char yesno = 'Y';
+    char n = 'N';
 
     //randomiser
     srand((unsigned)time(NULL));
@@ -17,37 +19,46 @@ void speedAcceleration()
 
         cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
         cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
-        cout << "Type the correct answer: ";
         do {
+        cout << "Type the correct answer: ";
+        
             cin >> a;
             cout << endl;
             switch (a)
             {
             case 'a':
-                cout << "Correct";
-                
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'c':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'd':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             default:
-                cout << "Wrong input";
+                cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-
+        if (yesno == 'N' || n == 'Y')
+        {
+            system("cls");
+            menu();
+        }
+        
+        
 
         break;
     case 2:
@@ -61,30 +72,37 @@ void speedAcceleration()
             switch (a)
             {
             case 'a':
-                cout << "Correct";
-                
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'c':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'd':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             default:
-                cout << "Wrong input";
+                cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-
+        if (yesno == 'N' || n == 'Y')
+        {
+            system("cls");
+            menu();
+        }
+       
 
         break;
     case 3:
@@ -98,30 +116,36 @@ void speedAcceleration()
             switch (a)
             {
             case 'a':
-                cout << "Correct";
-                
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'c':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             case 'd':
-                cout << "Incorrect";
-                cout << "Do you want to retry? Type Y/N:";
+                cout << "Incorrect" << endl;
+                cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
                 break;
             default:
-                cout << "Wrong input";
+                cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-
+        if (yesno == 'N' || n == 'Y')
+        {
+            system("cls");
+            menu();
+        }
 
         break;
     }

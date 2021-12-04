@@ -162,6 +162,7 @@
     <ClCompile Include="MechanicalMovement.cpp" />
     <ClCompile Include="SpeedAcceleration.cpp" />
     <ClCompile Include="TeamReunited.cpp" />
+    <ClCompile Include="Topics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FreeFalling.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MechanicalMovement.h" />
     <ClInclude Include="Speed&amp;Acceleration.h" />
+    <ClInclude Include="Topics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

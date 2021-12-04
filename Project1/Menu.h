@@ -4,6 +4,7 @@
 #include "Speed&Acceleration.h"
 #include "Frictionforces.h"
 #include "GravityWeight.h"
+#include "Topics.h"
 #include <iostream>
 #include <cstring>
 #include <iomanip>
