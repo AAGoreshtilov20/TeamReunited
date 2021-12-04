@@ -2,6 +2,8 @@
 #include "FreeFalling.h"
 #include "MechanicalMovement.h"
 #include "Speed&Acceleration.h"
+#include "Frictionforces.h"
+#include "GravityWeight.h"
 #include <iostream>
 #include <cstring>
 #include <iomanip>
