@@ -1,7 +1,7 @@
 #include "FreeFalling.h"
 #include <iostream>
 #include "Menu.h"
-int freeFalling()
+void freeFalling()
 {
     int i;
     char a;

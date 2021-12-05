@@ -1,7 +1,7 @@
 #include "FreeFalling.h"
 #include <iostream>
 #include "Menu.h"
-int speedAcceleration()
+void speedAcceleration()
 {
     int i;
     char a;

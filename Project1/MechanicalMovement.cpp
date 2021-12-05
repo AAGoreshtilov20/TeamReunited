@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Menu.h"
 using namespace std;
-int mechanicalMovement()
+void mechanicalMovement()
 {
     int i;
     char a;

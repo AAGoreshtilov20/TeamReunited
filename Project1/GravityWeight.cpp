@@ -1,7 +1,7 @@
 #include "GravityWeight.h"
 #include <iostream>
 #include "Menu.h"
-int gravityWeight()
+void gravityWeight()
 {
     int i;
     char a;

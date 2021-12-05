@@ -1,7 +1,7 @@
 #include "Frictionforces.h"
 #include <iostream>
 #include "Menu.h"
-int frictionForces()
+void frictionForces()
 {
     int i;
     char a;

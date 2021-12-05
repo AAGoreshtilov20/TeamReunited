@@ -4,4 +4,4 @@
 #include "Menu.h"
 using namespace std;
 
-int speedAcceleration();
+void speedAcceleration();

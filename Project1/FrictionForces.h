@@ -4,5 +4,5 @@
 #include "Menu.h"
 using namespace std;
 
-int frictionForces();
+void frictionForces();
 	
