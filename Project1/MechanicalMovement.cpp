@@ -38,7 +38,7 @@ void mechanicalMovement()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;
@@ -111,7 +111,7 @@ void mechanicalMovement()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;
@@ -182,7 +182,7 @@ void mechanicalMovement()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;

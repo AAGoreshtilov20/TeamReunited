@@ -37,7 +37,7 @@ void frictionForces()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;
@@ -110,7 +110,7 @@ void frictionForces()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;
@@ -181,7 +181,7 @@ void frictionForces()
                 }
                 else if (n == 'N')
                 {
-                    exit();
+                    exit(0);
                 }
                 cout << endl;
                 break;

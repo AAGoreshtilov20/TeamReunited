@@ -5,13 +5,13 @@ int exit()
 }
 void menu()
 {
-    int N;
-    
+    int N;   
     
     //Topics
     topics();
     cin >> N;
     cout << endl;
+
     //clear
     system("cls");
 
@@ -38,9 +38,7 @@ void menu()
 
         default:
             cout << "Wrong input" << endl << endl;
-            cout << "Enter number: ";
-            cin >> N;
-            break;
+            menu();
         }
     } while (N > 5);
 }
