@@ -47,7 +47,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -58,7 +58,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -69,13 +69,13 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
                 break;
             default:
-                cout << "Wrong input" << endl;
+                cout << "Wrong input" << endl << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
@@ -120,7 +120,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -131,7 +131,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -142,13 +142,13 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
                 break;
             default:
-                cout << "Wrong input" << endl;
+                cout << "Wrong input" << endl << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
@@ -183,6 +183,7 @@ void gravityWeight()
                 {
                     exit(0);
                 }
+
                 cout << endl;
                 break;
             case 'b':
@@ -191,7 +192,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -202,7 +203,7 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
@@ -213,13 +214,13 @@ void gravityWeight()
                 cin >> yesno;
                 if (yesno != 'Y' && yesno != 'N')
                 {
-                    cout << "Wrong input" << endl;
+                    cout << "Wrong input" << endl << endl;
                     cout << "Type only Y/N: ";
                     cin >> yesno;
                 }
                 break;
             default:
-                cout << "Wrong input" << endl;
+                cout << "Wrong input" << endl << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
