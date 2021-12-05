@@ -1,4 +1,4 @@
-#include "FreeFalling.h"
+﻿#include "FreeFalling.h"
 #include <iostream>
 #include "Menu.h"
 void speedAcceleration()
@@ -17,8 +17,8 @@ void speedAcceleration()
     {
     case 1:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What is the formula for average speed?" << endl << endl;
+        cout << " a) Distance moved / time taken \n\n b) Time taken / distance moved  \n\n c) Distance moved * time taken \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
 
@@ -85,14 +85,11 @@ void speedAcceleration()
             menu();
         }
 
-
-
-
         break;
     case 2:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "If a car increases in velocity from +5 m/s to +15 m/s in three seconds, what is its acceleration?" << endl << endl;
+        cout << " a) +3.3 m/s2 \n\n b) +33.3 m/s2 \n\n c) +10 m/s2 \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -162,8 +159,8 @@ void speedAcceleration()
         break;
     case 3:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What's the unit for acceleration?" << endl << endl;
+        cout << " a) m/s2 \n\n b) km/h \n\n c) m/s \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
