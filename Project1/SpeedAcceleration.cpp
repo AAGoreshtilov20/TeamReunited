@@ -17,7 +17,7 @@ void speedAcceleration()
     {
     case 1:
 
-        cout << "What is the formula for average speed?" << endl << endl;
+        cout << "What is the formula for acceleration?" << endl << endl;
         cout << " a) Distance moved / time taken \n\n b) Time taken / distance moved  \n\n c) Distance moved * time taken \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";

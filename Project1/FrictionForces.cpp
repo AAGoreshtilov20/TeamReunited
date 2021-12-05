@@ -1,6 +1,7 @@
 #include "Frictionforces.h"
 #include <iostream>
 #include "Menu.h"
+using namespace std;
 void frictionForces()
 {
     int i;
@@ -17,8 +18,8 @@ void frictionForces()
     {
     case 1:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What happens when two surfaces rub into each other?" << endl << endl;
+        cout << " a) They get hotter \n\n b) They get colder \n\n c) Nothing happens \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
 
@@ -91,8 +92,8 @@ void frictionForces()
         break;
     case 2:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What's the unit for friction?" << endl << endl;
+        cout << " a) N (Newton) \n\n b) Kg (Kilogram) \n\n c) m (Meter) \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -162,8 +163,8 @@ void frictionForces()
         break;
     case 3:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What is coefficient of friction?" << endl << endl;
+        cout << " a) ratio of the frictional force resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n b) ratio of the frictional force not resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n c) yes \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;

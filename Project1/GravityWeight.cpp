@@ -1,6 +1,7 @@
 #include "GravityWeight.h"
 #include <iostream>
 #include "Menu.h"
+using namespace std;
 void gravityWeight()
 {
     int i;
@@ -17,8 +18,8 @@ void gravityWeight()
     {
     case 1:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What are the units for mass?" << endl << endl;
+        cout << " a) Kilograms \n\n b) Newtons \n\n c) Newtons per kilogram \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
 
@@ -91,8 +92,8 @@ void gravityWeight()
         break;
     case 2:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "What's the deffinition of weight?" << endl << endl;
+        cout << " a) measure of the heaviness of an object \n\n b) the force, the object is pulled by \n\n c) yes \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -162,8 +163,8 @@ void gravityWeight()
         break;
     case 3:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "The formula for weight is:" << endl << endl;
+        cout << " a) F = m * 9.8 m/s2  \n\n b) F = m \n\n c) F = vt \n\n d) idk \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
