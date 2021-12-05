@@ -13,3 +13,5 @@
 #include <time.h>
 
 void menu();
+
+int exit();

@@ -1,7 +1,8 @@
 #include "MechanicalMovement.h"
 #include <iostream>
 #include "Menu.h"
-void mechanicalMovement()
+using namespace std;
+int mechanicalMovement()
 {
     int i;
     char a;
@@ -30,33 +31,61 @@ void mechanicalMovement()
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
+                if (n == 'Y')
+                {
+                    system("cls");
+                    menu();
+                }
+                else if (n == 'N')
+                {
+                    exit();
+                }
                 cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'c':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'd':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             default:
                 cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-        if (yesno == 'N' || n == 'Y')
+        if (yesno == 'N')
         {
             system("cls");
             menu();
         }
+
 
 
 
@@ -75,29 +104,56 @@ void mechanicalMovement()
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
+                if (n == 'Y')
+                {
+                    system("cls");
+                    menu();
+                }
+                else if (n == 'N')
+                {
+                    exit();
+                }
                 cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'c':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'd':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             default:
                 cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-        if (yesno == 'N' || n == 'Y')
+        if (yesno == 'N')
         {
             system("cls");
             menu();
@@ -119,29 +175,56 @@ void mechanicalMovement()
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
+                if (n == 'Y')
+                {
+                    system("cls");
+                    menu();
+                }
+                else if (n == 'N')
+                {
+                    exit();
+                }
                 cout << endl;
                 break;
             case 'b':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'c':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             case 'd':
-                cout << "Incorrect" << endl;
+                cout << "Incorrect" << endl << endl;
                 cout << "Do you want to retry? Type Y/N: ";
                 cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
                 break;
             default:
                 cout << "Wrong input" << endl;
                 yesno = 'Y';
             }
         } while (yesno == 'Y');
-        if (yesno == 'N' || n == 'Y')
+        if (yesno == 'N')
         {
             system("cls");
             menu();

@@ -1,13 +1,17 @@
 #include "Menu.h"
-using namespace std;
+int exit()
+{
+    return 0;
+}
 void menu()
 {
-  
+    int N;
     
     
     //Topics
     topics();
-
+    cin >> N;
+    cout << endl;
     //clear
     system("cls");
 
