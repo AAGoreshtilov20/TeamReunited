@@ -93,7 +93,7 @@ void gravityWeight()
     case 2:
 
         cout << "What's the deffinition of weight?" << endl << endl;
-        cout << " a) measure of the heaviness of an object \n\n b) the force, the object is pulled by \n\n c) yes \n\n d) idk \n" << endl;
+        cout << " a) measure of the heaviness of an object \n\n b) the force, the object is pulled by \n\n c) yes \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;

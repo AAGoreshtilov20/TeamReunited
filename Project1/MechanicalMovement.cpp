@@ -18,7 +18,7 @@ void mechanicalMovement()
     {
     case 1:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
+        cout << "A cyclist is moving with 400m/50s. What is his averege speed? " << endl << endl;
         cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
         do {
             cout << "Type the correct answer: ";
@@ -92,8 +92,8 @@ void mechanicalMovement()
         break;
     case 2:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "When we say that the change of day and night on Earth is explained by the rotation of the earth around its axis, then we mean the reference system associated with: " << endl << endl;
+        cout << " a) Sun \n\n b) Earth \n\n c) Planets \n\n d) Any body \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -163,8 +163,8 @@ void mechanicalMovement()
         break;
     case 3:
 
-        cout << "A cyclist is moving with 400m/50s. What is his averege speed ? " << endl << endl;
-        cout << " a) 28.8km/h \n\n b) 80km/h \n\n c) 20.5km/h \n\n d) 15km/h \n" << endl;
+        cout << "With a high sheer cliff begins to fall a stone. What speed does he have after 3c after the start of the fall? The resistance of the air is negligible." << endl << endl;
+        cout << " a) 30m/s \n\n b) 10m/s \n\n c) 3m/s \n\n d) 2m/s \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
