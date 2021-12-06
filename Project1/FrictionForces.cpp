@@ -19,7 +19,7 @@ void frictionForces()
     case 1:
 
         cout << "What happens when two surfaces rub into each other?" << endl << endl;
-        cout << " a) They get hotter \n\n b) They get colder \n\n c) Nothing happens \n\n d) idk \n" << endl;
+        cout << " a) They get hotter \n\n b) They get colder \n\n c) Nothing happens \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
 
@@ -93,7 +93,7 @@ void frictionForces()
     case 2:
 
         cout << "What's the unit for friction?" << endl << endl;
-        cout << " a) N (Newton) \n\n b) Kg (Kilogram) \n\n c) m (Meter) \n\n d) idk \n" << endl;
+        cout << " a) N (Newton) \n\n b) Kg (Kilogram) \n\n c) m (Meter) \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -164,7 +164,7 @@ void frictionForces()
     case 3:
 
         cout << "What is coefficient of friction?" << endl << endl;
-        cout << " a) ratio of the frictional force resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n b) ratio of the frictional force not resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n c) yes \n\n d) idk \n" << endl;
+        cout << " a) ratio of the frictional force resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n b) ratio of the frictional force not resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n c) yes \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;

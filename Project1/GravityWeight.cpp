@@ -19,7 +19,7 @@ void gravityWeight()
     case 1:
 
         cout << "What are the units for mass?" << endl << endl;
-        cout << " a) Kilograms \n\n b) Newtons \n\n c) Newtons per kilogram \n\n d) idk \n" << endl;
+        cout << " a) Kilograms \n\n b) Newtons \n\n c) Newtons per kilogram \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
 
@@ -164,7 +164,7 @@ void gravityWeight()
     case 3:
 
         cout << "The formula for weight is:" << endl << endl;
-        cout << " a) F = m * 9.8 m/s2  \n\n b) F = m \n\n c) F = vt \n\n d) idk \n" << endl;
+        cout << " a) F = m * 9.8 m/s2  \n\n b) F = m \n\n c) F = vt \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
