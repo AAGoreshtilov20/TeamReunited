@@ -163,28 +163,24 @@ void mechanicalMovement()
         break;
     case 3:
 
-        cout << "With a high sheer cliff begins to fall a stone. What speed does he have after 3c after the start of the fall? The resistance of the air is negligible." << endl << endl;
-        cout << " a) 30m/s \n\n b) 10m/s \n\n c) 3m/s \n\n d) 2m/s \n" << endl;
+        cout << "A stone is falling off a cliff. What speed does the stone has after 3s after the start of the fall? The resistance of the air is negligible." << endl << endl;
+        cout << " a) 3m/s \n\n b) 10m/s \n\n c) 30m/s \n\n d) 2m/s \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
             cout << endl;
             switch (a)
             {
-            case 'a':
-                cout << "Correct" << endl << endl;
-                cout << "Do you want to continue? Type Y/N: ";
-                cin >> n;
-                if (n == 'Y')
+            case 'a':                
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
                 {
-                    system("cls");
-                    menu();
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
                 }
-                else if (n == 'N')
-                {
-                    exit(0);
-                }
-                
                 cout << endl;
                 break;
             case 'b':
@@ -199,14 +195,17 @@ void mechanicalMovement()
                 }
                 break;
             case 'c':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                if (n == 'Y')
                 {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
+                    system("cls");
+                    menu();
+                }
+                else if (n == 'N')
+                {
+                    exit(0);
                 }
                 break;
             case 'd':
