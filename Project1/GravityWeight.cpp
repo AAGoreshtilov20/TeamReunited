@@ -93,7 +93,7 @@ void gravityWeight()
     case 2:
 
         cout << "What's the deffinition of weight?" << endl << endl;
-        cout << " a) measure of the heaviness of an object \n\n b) the force, the object is pulled by \n\n c) yes \n\n d) I don't know \n" << endl;
+        cout << " a) the force, the object is pulled by  \n\n b) measure of the heaviness of an object \n\n c) yes \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -101,6 +101,17 @@ void gravityWeight()
             switch (a)
             {
             case 'a':
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
+                break;
+            case 'b':
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
@@ -114,17 +125,6 @@ void gravityWeight()
                     exit(0);
                 }
                 cout << endl;
-                break;
-            case 'b':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
-                {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
-                }
                 break;
             case 'c':
                 cout << "Incorrect" << endl << endl;
@@ -164,7 +164,7 @@ void gravityWeight()
     case 3:
 
         cout << "The formula for weight is:" << endl << endl;
-        cout << " a) F = m * 9.8 m/s2  \n\n b) F = m \n\n c) F = vt \n\n d) I don't know \n" << endl;
+        cout << " a) F = vt \n\n b) F = m \n\n c) F = m * 9.8 m/s2 \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -172,20 +172,15 @@ void gravityWeight()
             switch (a)
             {
             case 'a':
-                cout << "Correct" << endl << endl;
-                cout << "Do you want to continue? Type Y/N: ";
-                cin >> n;
-                if (n == 'Y')
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
                 {
-                    system("cls");
-                    menu();
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
                 }
-                else if (n == 'N')
-                {
-                    exit(0);
-                }
-
-                cout << endl;
                 break;
             case 'b':
                 cout << "Incorrect" << endl << endl;
@@ -199,15 +194,19 @@ void gravityWeight()
                 }
                 break;
             case 'c':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                if (n == 'Y')
                 {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
+                    system("cls");
+                    menu();
                 }
+                else if (n == 'N')
+                {
+                    exit(0);
+                }
+                cout << endl;
                 break;
             case 'd':
                 cout << "Incorrect" << endl << endl;

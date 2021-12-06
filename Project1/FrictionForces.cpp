@@ -93,7 +93,7 @@ void frictionForces()
     case 2:
 
         cout << "What's the unit for friction?" << endl << endl;
-        cout << " a) N (Newton) \n\n b) Kg (Kilogram) \n\n c) m (Meter) \n\n d) I don't know \n" << endl;
+        cout << " a) Kg (Kilogram) \n\n b) N (Newton) \n\n c) m (Meter) \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -101,6 +101,17 @@ void frictionForces()
             switch (a)
             {
             case 'a':
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
+                break;
+            case 'b':
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
@@ -114,17 +125,6 @@ void frictionForces()
                     exit(0);
                 }
                 cout << endl;
-                break;
-            case 'b':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
-                {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
-                }
                 break;
             case 'c':
                 cout << "Incorrect" << endl << endl;
@@ -164,7 +164,7 @@ void frictionForces()
     case 3:
 
         cout << "What is coefficient of friction?" << endl << endl;
-        cout << " a) ratio of the frictional force resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n b) ratio of the frictional force not resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n c) yes \n\n d) I don't know \n" << endl;
+        cout << " a) yes \n\n b) ratio of the frictional force not resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n c) ratio of the frictional force resisting the motion of two surfaces in contact to the normal force pressing the two surfaces together \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -172,20 +172,15 @@ void frictionForces()
             switch (a)
             {
             case 'a':
-                cout << "Correct" << endl << endl;
-                cout << "Do you want to continue? Type Y/N: ";
-                cin >> n;
-                if (n == 'Y')
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
                 {
-                    system("cls");
-                    menu();
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
                 }
-                else if (n == 'N')
-                {
-                    exit(0);
-                }
-
-                cout << endl;
                 break;
             case 'b':
                 cout << "Incorrect" << endl << endl;
@@ -199,15 +194,19 @@ void frictionForces()
                 }
                 break;
             case 'c':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                if (n == 'Y')
                 {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
+                    system("cls");
+                    menu();
                 }
+                else if (n == 'N')
+                {
+                    exit(0);
+                }
+                cout << endl;
                 break;
             case 'd':
                 cout << "Incorrect" << endl << endl;

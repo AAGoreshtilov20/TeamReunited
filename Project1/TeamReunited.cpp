@@ -19,5 +19,4 @@ int test(int argc, char* argv[]) {
 int main()
 {
 	menu();
-	
 }

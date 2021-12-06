@@ -89,7 +89,7 @@ void speedAcceleration()
     case 2:
 
         cout << "If a car increases in velocity from +5 m/s to +15 m/s in three seconds, what is its acceleration?" << endl << endl;
-        cout << " a) +3.3 m/s2 \n\n b) +33.3 m/s2 \n\n c) +10 m/s2 \n\n d) I don't know \n" << endl;
+        cout << " a) +33.3 m/s2 \n\n b) +3.3 m/s2 \n\n c) +10 m/s2 \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -97,6 +97,17 @@ void speedAcceleration()
             switch (a)
             {
             case 'a':
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
+                {
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
+                }
+                break;
+            case 'b':
                 cout << "Correct" << endl << endl;
                 cout << "Do you want to continue? Type Y/N: ";
                 cin >> n;
@@ -110,17 +121,6 @@ void speedAcceleration()
                     exit(0);
                 }
                 cout << endl;
-                break;
-            case 'b':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
-                {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
-                }
                 break;
             case 'c':
                 cout << "Incorrect" << endl << endl;
@@ -160,7 +160,7 @@ void speedAcceleration()
     case 3:
 
         cout << "What's the unit for acceleration?" << endl << endl;
-        cout << " a) m/s2 \n\n b) km/h \n\n c) m/s \n\n d) I don't know \n" << endl;
+        cout << " a) m/s \n\n b) km/h \n\n c) m/s2 \n\n d) I don't know \n" << endl;
         do {
             cout << "Type the correct answer: ";
             cin >> a;
@@ -168,20 +168,15 @@ void speedAcceleration()
             switch (a)
             {
             case 'a':
-                cout << "Correct" << endl << endl;
-                cout << "Do you want to continue? Type Y/N: ";
-                cin >> n;
-                if (n == 'Y')
+                cout << "Incorrect" << endl << endl;
+                cout << "Do you want to retry? Type Y/N: ";
+                cin >> yesno;
+                if (yesno != 'Y' && yesno != 'N')
                 {
-                    system("cls");
-                    menu();
+                    cout << "Wrong input" << endl << endl;
+                    cout << "Type only Y/N: ";
+                    cin >> yesno;
                 }
-                else if (n == 'N')
-                {
-                    exit(0);
-                }
-
-                cout << endl;
                 break;
             case 'b':
                 cout << "Incorrect" << endl << endl;
@@ -195,15 +190,19 @@ void speedAcceleration()
                 }
                 break;
             case 'c':
-                cout << "Incorrect" << endl << endl;
-                cout << "Do you want to retry? Type Y/N: ";
-                cin >> yesno;
-                if (yesno != 'Y' && yesno != 'N')
+                cout << "Correct" << endl << endl;
+                cout << "Do you want to continue? Type Y/N: ";
+                cin >> n;
+                if (n == 'Y')
                 {
-                    cout << "Wrong input" << endl << endl;
-                    cout << "Type only Y/N: ";
-                    cin >> yesno;
+                    system("cls");
+                    menu();
                 }
+                else if (n == 'N')
+                {
+                    exit(0);
+                }
+                cout << endl;
                 break;
             case 'd':
                 cout << "Incorrect" << endl << endl;
